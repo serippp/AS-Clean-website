@@ -2,6 +2,8 @@
 
 Testes locais em Chrome, sobre HTTP, realizados em 25 de outubro de 2026.
 
+Após a correção da estrutura plana usada no GitHub, foi repetido o teste sobre HTTP em 1440 × 1000 e 390 × 844. Os dois vídeos atingiram `readyState 4`, reproduziram e avançaram; todas as imagens carregaram; não houve respostas 404, erros de JavaScript nem scroll horizontal.
+
 | Verificação | Resultado |
 | --- | --- |
 | Hero | Composição revista visualmente em computador e telemóvel. |

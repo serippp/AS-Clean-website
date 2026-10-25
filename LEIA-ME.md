@@ -8,7 +8,7 @@ Extraia o ZIP completo e abra `index.html` no navegador. Mantenha a estrutura de
 
 ## Publicar através do GitHub e da Netlify
 
-1. Coloque todo o conteúdo desta pasta num repositório GitHub. `index.html`, `styles.css`, `main.js`, `favicon.png` e `netlify.toml` devem ficar na raiz, ao lado de `assets`.
+1. Coloque todo o conteúdo desta pasta na raiz do repositório GitHub. O pacote corresponde à estrutura plana já usada no repositório `serippp/AS-Clean-website`.
 2. Ligue esse repositório a um projeto Netlify.
 3. Não é necessário comando de build. A pasta de publicação é `.` (a raiz do repositório), já definida em `netlify.toml`.
 4. Depois da publicação, verifique os dois vídeos, a fotografia, o logótipo e o menu num telemóvel. Os testes incluídos foram locais; não foi realizada uma publicação remota.
@@ -24,14 +24,17 @@ main.js
 favicon.png
 netlify.toml
 robots.txt
-assets/
-  fonts/manrope.woff2 + OFL.txt
-  images/antes-depois.webp + hero-poster.webp + processo-poster.webp
-  logo/logo.webp
-  videos/Video-58545.mp4 + processo-limpeza.mp4
+manrope.woff2
+OFL.txt
+antes-depois.webp
+hero-poster.webp
+processo-poster.webp
+logo.webp
+Video-58545.mp4
+processo-limpeza.mp4
 ```
 
-Os caminhos usam `./assets/...` e respeitam maiúsculas e minúsculas. Não renomeie nem mova ficheiros sem atualizar as referências.
+Os caminhos apontam para a raiz e respeitam maiúsculas e minúsculas. Não renomeie nem mova ficheiros sem atualizar as referências.
 
 ## Materiais reais
 
